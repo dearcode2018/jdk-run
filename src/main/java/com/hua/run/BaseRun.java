@@ -4,16 +4,28 @@ import org.junit.*;
 import java.util.List;
 import java.util.ArrayList;
 
+import com.hua.entity.User;
+
 public class BaseRun
 {
 	public static void main(final String[] args)
 	{
-			List<String> list = new ArrayList<>();
-			list.add("hello");
-			list.add("world");
-			for (String e : list)
+			List<User> list = new ArrayList<>();
+			User e = null;
+			
+			e = new User();
+			e.setId("2012555");
+			e.setName("zhangsan");
+			list.add(e);
+			
+			e = new User();
+			e.setId("20165325");
+			e.setName("lisi");
+			list.add(e);
+	
+			for (User e : list)
 			{
-				System.out.println(e);
+				System.out.println(e.getId() + ": " + e.getName());
 			}
 	}
 	
