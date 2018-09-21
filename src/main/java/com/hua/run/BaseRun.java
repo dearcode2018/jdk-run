@@ -23,9 +23,9 @@ public class BaseRun
 			e.setName("lisi");
 			list.add(e);
 	
-			for (User e : list)
+			for (User u : list)
 			{
-				System.out.println(e.getId() + ": " + e.getName());
+				System.out.println(u.getId() + ": " + u.getName());
 			}
 	}
 	
