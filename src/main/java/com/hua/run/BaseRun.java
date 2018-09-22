@@ -32,7 +32,7 @@ public class BaseRun
 	@Test
 	public void test()
 	{
-		
+		System.out.println("test succcess");
 	}
 }
 
