@@ -22,7 +22,11 @@ public class BaseRun
 			e.setId("20165325");
 			e.setName("李四");
 			list.add(e);
+			// main方法参数
 			System.out.println("args[0]: " + args[0] + ", args[1]: " + args[1]);
+			// -D 属性值
+			// 若属性值含有特殊字符，同样用双引号包围起来，属性名可以含有.，例如 -Denv.abc=xx
+			System.out.println(System.getProperty("env.abc"));
 			for (User u : list)
 			{
 				System.out.println(u.getId() + ": " + u.getName());
