@@ -22,7 +22,7 @@ public class BaseRun
 			e.setId("20165325");
 			e.setName("李四");
 			list.add(e);
-	
+			System.out.println("args[0]: " + args[0] + ", args[1]: " + args[1]);
 			for (User u : list)
 			{
 				System.out.println(u.getId() + ": " + u.getName());

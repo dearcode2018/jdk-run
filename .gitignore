@@ -25,5 +25,7 @@ target/*
 */.springBeans
 
 .DS_Store
+
 .myumldata
 */.myumldata
+.gitignore
