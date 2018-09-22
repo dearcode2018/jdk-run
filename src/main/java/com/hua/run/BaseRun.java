@@ -20,7 +20,7 @@ public class BaseRun
 			
 			e = new User();
 			e.setId("20165325");
-			e.setName("lisi");
+			e.setName("李四");
 			list.add(e);
 	
 			for (User u : list)
